@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>javascript object</title>
+</head>
+<body>
+    <script>
+        //資料:數字、字串、布林值、空值、函式、物件
+        //let add=物件;
+        //物件:是一種資料，用來包裝其他的資料
+        //建立物件，使用物件
+        let test=new Object(); //建立新物件:new Object();
+        //建立物件的成員
+        test.x=3; //物件.成員名稱=資料;
+        test.y=4; //如果物件的成員資料不是函式，稱為［屬性]；如果是函式，稱為［方法］
+        test.show=function(){
+            console.log("show");
+        };
+        //使用物件
+        console.log(test.x+test.y);
+        test.show(); //此時show為函式，呼叫函式,
+        //console.log(資料,資料,.....);
+    </script>
+</body>
+</html>

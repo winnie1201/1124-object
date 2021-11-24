@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Function</title>
+</head>
+<body>
+    <script>
+    //函式:用來包裝程式碼
+    //定義函式>呼叫函式
+    //定義函式
+    /*
+        function 函式名稱(參數名稱一,參數名稱二,....){
+            函式內部的程式碼
+        }
+        
+    */
+    /*    function name(msg,mmm){
+            console.log(msg,mmm);
+            console.log("hello");
+        }
+        //呼叫函式:函式名稱(參數一資料,參數二資料,...)
+        name(1,2);
+        name(true,2);
+        console.log("end");
+    */
+    /*
+        function print(msg){
+                console.log(msg);
+            }
+            print(s);
+            print(true);
+    */       
+        /*
+        function add(n1,n2){
+            let result=n1+n2;
+                console.log(result);
+            }
+            add(1,5);
+            add(5,10);
+    
+    //函式的基本語法、函式的參數、函式的回傳值
+            function add(n1,n2){
+            let result=n1+n2;
+               // console.log(result);
+                return result; //強制結束函式，可帶回傳的資料
+            }
+            
+            let x=add(3,4)*20;
+            console.log(x);
+            */
+            /*
+            let msg=prompt("請輸入資料","");
+            console.log(msg);
+            */
+
+            //1+2+3+5+....+max
+        /*
+            function calculate(sum){
+                let result=0;
+                let x=1;
+                while(x<=sum){
+                    result=result+x;
+                    x++;
+                }
+                    return result;
+            }
+            
+            let data=calculate(5);
+            console.log(data);
+            data=calculate(50);
+            console.log(data);
+        */
+        //不同的函式寫法
+        /*  
+            1.
+                function函式名稱(參數名稱一,參數名稱二,...){
+                    函式內部的程式碼
+                };
+            2.
+                let 函式名稱=function(參數名稱一,參數名稱二,...){
+                    函式內部的程式碼
+                };
+            3. 
+                let 函式名稱=(參數名稱一,參數名稱二,....)=>{
+                    函式內部的程式碼
+                };
+        */
+    /* 
+       function add(n1,n2){
+            let result=n1+n2;
+            return result;
+        }
+        let data=add(3,4);
+        console.log(data);
+    */
+    /*       
+        function calculate(sum){
+                let result=0;
+                let x=1;
+                while(x<=sum){
+                    result=result+x;
+                    x++;
+                }
+                    return result;
+            }
+            
+            let data=calculate(5);
+            console.log(data);
+            data=calculate(50);
+            console.log(data);
+    */
+    /*
+        let calculate=function(sum){
+                let result=0;
+                let x=1;
+                while(x<=sum){
+                    result=result+x;
+                    x++;
+                }
+                    return result;
+            }
+            
+            let data=calculate(5);
+            console.log(data);
+            data=calculate(50);
+            console.log(data);
+    */
+    /*
+        let calculate=(sum)=>{
+            let result=0;
+            let x=1;
+            while(x<=sum){
+                result=result+x;
+                x++;
+            }
+            return result;
+        }
+        let data=calculate(5);
+            console.log(data);
+            data=calculate(50);
+            console.log(data);
+    */
+    
+    let x=confirm("請問要刪除嗎","");
+    console.log(x);
+    let result="已刪除";
+    if(x==true){
+      console.log(result);
+    }else{
+        
+        
+    }
+    
+    </script>
+</body>
+</html>
